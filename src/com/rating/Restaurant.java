@@ -66,6 +66,7 @@ public class Restaurant {
     /* Method for print selected outlet with the rating calculations*/
     public void printRestaurant() throws IOException {
 
+        //Open create buffered object
         BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath));
         String line;
         System.out.println("LIST OF OUTLETS IN SELECTED CITY: ");
@@ -107,6 +108,7 @@ public class Restaurant {
             }
         }
         myWriter.close();
+        // Delete old file and Rename new file as old file
         File oldTempFile =new File(tempFile);
         File newFile =new File(filePath);
         newFile.delete();
