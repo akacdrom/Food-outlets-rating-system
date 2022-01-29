@@ -1,0 +1,5 @@
+####
+1- Open the main project directory in your terminal.
+2- /usr/lib/jvm/java-17-openjdk/bin/javac src/com/rating/*.java -d .
+3- /usr/lib/jvm/java-17-openjdk/bin/jar cvfe myapp.jar com.rating.Main com/rating/*
+4- /usr/lib/jvm/java-17-openjdk/bin/java -jar myapp.jar
