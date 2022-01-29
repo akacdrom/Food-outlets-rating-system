@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    /* Path to the files*/
+    /** Path to the files*/
     private static final String restaurantPath = "src/com/rating/Restaurant";
     private static final String bistroPath = "src/com/rating/Bistro";
     private static final String takeAwayPath = "src/com/rating/Take-Away";
